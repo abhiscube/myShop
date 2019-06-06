@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_transaction_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.paygilant.myshop.TransactionScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/message"
+        android:layout_toEndOf="@+id/message"
+        android:id="@+id/amountVal" />
+
+    <TextView
+        android:text="$ To "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/amountVal"
+        android:layout_toEndOf="@+id/amountVal"
+        android:id="@+id/to" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/to"
+        android:layout_toEndOf="@+id/to"
+        android:id="@+id/contact" />
+
+    <Button
+        android:text="choose contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseContact"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp" />
+
+    <Button
+        android:text="Approve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/approve"
+        android:onClick="onApproveClicked"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/message"
+        android:layout_marginBottom="56dp" />
+
+    <TextView
+        android:text="@string/p2p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:layout_alignBottom="@+id/approve"
+        android:layout_alignStart="@+id/chooseContact"
+        android:layout_marginStart="78dp"
+        android:layout_marginBottom="97dp" />
+</RelativeLayout>

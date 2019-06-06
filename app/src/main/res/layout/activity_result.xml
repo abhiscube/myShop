@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/paymentAppText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/payment_approved"
+            android:textColor="#757176"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+    <LinearLayout
+        android:layout_width="55.5dp"
+        android:layout_height="55.5dp"
+        android:layout_marginTop="16.6dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textNumResult"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="#575358"
+            android:lineSpacingExtra="5sp"
+            android:visibility="gone"
+            android:text="1" />
+        <TextView
+            android:id="@+id/textScoreHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:layout_gravity="center"
+            android:textColor="#575358"
+            android:lineSpacingExtra="2sp"
+            android:visibility="gone"
+            android:text="@string/very_high"/>
+
+        <ImageView
+            android:id="@+id/imageSumResult"
+            android:padding="2dp"
+            android:layout_width="55.5dp"
+            android:layout_height="55.5dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="2dp"
+            android:src="@drawable/rejected" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.9dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_marginTop="6.5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:textColor="#757176"
+                android:lineSpacingExtra="3sp"
+                android:layout_marginEnd="11dp"
+                android:text=" By"/>
+            <ImageView
+                android:layout_width="103dp"
+                android:layout_height="77dp"
+                android:src="@drawable/paygilant_logo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_marginTop="49dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start|end" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="normal"
+                android:textColor="#757176"
+                android:lineSpacingExtra="3sp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:text="@string/device"/>
+            <ImageView
+                android:id="@+id/imageResult1"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/group_365"
+                android:layout_marginEnd="0dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_marginTop="17dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start|end" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="normal"
+                android:textColor="#757176"
+                android:lineSpacingExtra="3sp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:text="@string/user_data"/>
+
+            <ImageView
+                android:id="@+id/imageResult2"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/group_365"
+                android:layout_marginEnd="0dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_marginTop="17dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start|end" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="normal"
+                android:textColor="#757176"
+                android:lineSpacingExtra="3sp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:text="@string/interactions"/>
+            <ImageView
+                android:id="@+id/imageResult3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/group_365"
+                android:layout_marginEnd="0dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_marginTop="17dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start|end" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="normal"
+                android:textColor="#757176"
+                android:lineSpacingExtra="3sp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+
+                android:text="@string/biometrics"/>
+            <ImageView
+                android:id="@+id/imageResult4"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/group_365"
+                android:layout_marginEnd="0dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_marginTop="17dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start|end" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="normal"
+                android:textColor="#757176"
+                android:lineSpacingExtra="3sp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:text="@string/transaction"/>
+            <ImageView
+                android:id="@+id/imageResult5"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/group_365"
+                android:layout_marginEnd="0dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonTryAgain"
+            android:layout_width="204dp"
+            android:layout_height="29dp"
+            android:text="Start Over"
+            android:layout_marginTop="40dp"
+            android:textSize="14sp"
+            android:background="@drawable/round_rect_shape"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:textColor="#8ad308"
+            android:lineSpacingExtra="16sp"
+            android:visibility="gone"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTryAnotherFlow"
+            android:textSize="14sp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:foreground="?attr/selectableItemBackground"
+            android:lineSpacingExtra="3sp"
+            android:text="@string/try_another_flow" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

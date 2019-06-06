@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:id="@+id/activity_contact"
+    tools:context=".Contact.ContactActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:background="@color/ui_appBar_start">
+        <SearchView
+            android:id="@+id/searchViewContact"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search for products"
+            android:searchIcon="@drawable/ic_search"
+            android:background="#dbffffff" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:divider="@null"/>
+    </LinearLayout>
+
+</RelativeLayout>

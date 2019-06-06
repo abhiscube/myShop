@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ui_appBar_light">#f5f5f5</color>
+    <color name="ui_appBar_start">#8ad308</color>
+    <color name="colorPaygilant">#555f7a</color>
+    <color name="colorConnectButton">#33999999</color>
+    <color name="white_Color">#ffffff</color>
+    <color name="selected_button">#8ad308</color>
+    <color name="unselected_button">#707070</color>
+    <color name="unselected_text">#8a000000</color>
+    <color name="warning_color">#f4511e</color>
+    <color name="hint_color">#42000000</color>
+    <color name="success_color">#009688</color>
+</resources>

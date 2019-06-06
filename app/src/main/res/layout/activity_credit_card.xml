@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_credit_card"
+    android:layoutDirection="ltr"
+    tools:context=".CreditCardActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:weightSum="5">
+    <EditText
+        android:paddingTop="20dp"
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/edt_bg_selector"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:paddingTop="20dp"
+
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/edt_bg_selector"
+        android:hint="Number"
+        android:inputType="number"/>
+<LinearLayout
+    android:paddingTop="20dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <EditText
+        android:id="@+id/editTextMonth"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:maxLength="2"
+        android:ems="2"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/edt_bg_selector"
+        android:hint="Month"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:ems="2"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/edt_bg_selector"
+        android:maxLength="2"
+        android:inputType="number" />
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextCvv"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/edt_bg_selector"
+        android:maxLength="4"
+        android:hint="Cvv"
+        android:paddingTop="20dp"
+        android:inputType="number"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/pay"
+        android:background="@color/ui_appBar_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay"/>
+
+</LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

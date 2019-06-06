@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TestsApp</string>
+    <string name="pinCode_instructions">Please insert the following pin code:</string>
+    <string name="amount_instructions">insert payment details</string>
+    <string name="Thank_you_massage">Paygilant appreciates your cooperation</string>
+    <string name="pinCode1">9460</string>
+    <string name="pinCode2">1238</string>
+    <string name="insert_again">INSERT AGAIN</string>
+    <string name="p2p">You choose to send </string>
+    <string name="Instruction">Hello and Welcome to our testing application!\n
+
+
+Thanks for helping us making the product greater!\n
+
+
+Here is what we need from you to make it play:\n\n
+
+
+Step 1: \nEnter the first PIN code twice using 2 keyboards for 10 times.\n\n
+
+
+Step 2: \nEnter the second PIN code twice using 2 keyboards for 10 times.\n\n
+
+
+Each time you complete a pair you will be shown the statistic page for reference.\n\n
+
+
+
+Output at the end of the test:\n\n
+
+
+You are Awesome! You just improved our accuracy!\n\n
+
+Thank you so much!
+
+
+</string>
+</resources>

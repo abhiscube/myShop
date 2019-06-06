@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="56dp"-->
+            <!--android:background="@color/ui_appBar_light">-->
+
+            <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="24dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="24dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginStart="16dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="16dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:src="@drawable/navbar_mobile_light" />&ndash;&gt;-->
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="54dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:textColor="#20272b"
+                android:lineSpacingExtra="5sp"
+                android:text="Select a flow for testing"
+                />
+
+            <LinearLayout
+                android:id="@+id/button_send_money"
+                android:layout_width="334dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="35dp"
+                android:background="#555f7a"
+                android:gravity="center"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textColor="#ffffff"
+                    android:lineSpacingExtra="6sp"
+                    android:gravity="center_horizontal"
+                    android:text="SEND MONEY"
+                    />
+
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/button_buy_online"
+                android:layout_width="334dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="50dp"
+                android:background="#555f7a"
+                android:gravity="center"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="normal"
+                    android:textColor="#ffffff"
+                    android:lineSpacingExtra="6sp"
+                    android:gravity="center_horizontal"
+                    android:text="BUY ONLINE"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="12sp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="normal"
+                android:textColor="#8cd409"
+                android:lineSpacingExtra="2sp"
+                android:layout_weight="1"
+                android:text="OR START DATA COLLECTION" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/paygilant_logo"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

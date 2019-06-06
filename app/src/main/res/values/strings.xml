@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">MyShop</string>
+    <string name="pinCode_instructions">INTER PIN</string>
+    <string name="amount_instructions">insert payment details</string>
+    <string name="Thank_you_massage">Paygilant appreciates your cooperation</string>
+    <string name="pinCode1">9460</string>
+    <string name="pinCode2">1238</string>
+    <string name="insert_again">INSERT AGAIN</string>
+    <string name="p2p">You choose to send </string>
+    <string name="Instruction">Hello and Welcome to our testing application!\n
+
+
+Thanks for helping us making the product greater!\n
+
+
+Here is what we need from you to make it play:\n\n
+
+
+Step 1: \nEnter the first PIN code twice using 2 keyboards for 10 times.\n\n
+
+
+Step 2: \nEnter the second PIN code twice using 2 keyboards for 10 times.\n\n
+
+
+Each time you complete a pair you will be shown the statistic page for reference.\n\n
+
+
+
+Output at the end of the test:\n\n
+
+
+You are Awesome! You just improved our accuracy!\n\n
+
+Thank you so much!
+
+
+</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="connect">CONNECT</string>
+    <string name="try_another_flow">Try another flow</string>
+    <string name="payment_approved">APPROVED</string>
+    <string name="device">Device</string>
+    <string name="user_data">User Data</string>
+    <string name="interactions">Interactions</string>
+    <string name="biometrics">Biometrics</string>
+    <string name="transaction">Transaction</string>
+    <string name="very_high">VERY HIGH</string>
+    <string name="send_more_money">SEND MORE MONEY</string>
+    <string name="send_money">SEND MONEY</string>
+    <string name="buy_online">BUY ONLINE</string>
+    <string name="log_out">Log Out</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="use_password">Use password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="ok">OK</string>
+    <string name="password">Password</string>
+    <string name="fingerprint_description">Scan your face or fingerprint</string>
+    <string name="fingerprint_hint">Touch sensor</string>
+    <string name="password_description">Enter your store password to continue</string>
+    <string name="purchase">Purchase</string>
+    <string name="purchase_not_invalidated">Purchase not invalidated</string>
+    <string name="purchase_button_not_invalidated_description">
+        You can proceed to purchase with this button \n even if a new fingerprint is enrolled
+    </string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="item_title">White Mesh Pluto Backpack</string>
+    <string name="item_price">$62.68</string>
+    <string name="item_description">Mesh backpack in white. Black textile trim throughout.</string>
+    <string name="purchase_done">Purchase successful</string>
+    <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, so your password is required.</string>
+    <string name="use_fingerprint_in_future">Use fingerprint in the future</string>
+    <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
+    <string name="use_fingerprint_to_authenticate_key">use_fingerprint_to_authenticate_key</string>
+    <string name="description_bugdroid_icon">Android bugdroid image</string>
+    <string name="description_fingerprint_icon">Fingerprint icon</string>
+</resources>

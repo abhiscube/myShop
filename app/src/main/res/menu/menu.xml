@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.javacodegeeks.android.menu.MainActivity"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/iconmenu"
+        android:title="Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/navbar_mobile_light">
+        <menu>
+            <item android:id="@+id/face_enrolment"
+                android:title="Exit"
+                app:showAsAction="always"/>
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnLine.ByOnlineActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:background="#555f7a">-->
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="24dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="24dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginStart="16dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="16dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:src="@drawable/navbar_mobile_light" />&ndash;&gt;-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:background="@color/ui_appBar_start">
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="5dp"
+            android:queryHint="Search for products"
+            android:searchIcon="@drawable/ic_search"
+            android:background="#dbffffff" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:columnWidth="100dp"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp"
+        android:focusable="true"
+        android:clickable="true"/>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

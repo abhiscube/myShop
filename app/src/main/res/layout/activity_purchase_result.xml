@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".PurchaseResultActivity">
+    <TextView
+        android:id="@+id/message_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="normal"
+        android:layout_marginTop="49dp"
+        android:textColor="@android:color/black"
+        android:lineSpacingExtra="10sp"
+        android:gravity="center_horizontal"
+        android:text=""/>
+    <ImageView
+        android:id="@+id/imageRisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/v_sign_orange"/>
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/textRiskLevel"
+        android:lines="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#7d7d7d"
+        android:layout_marginTop="9dp"
+        android:lineSpacingExtra="2sp"
+        android:text=""/>
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="334dp"
+        android:layout_height="43dp"
+        android:text="CONTINUE SHOPPING"
+        android:layout_marginTop="40dp"
+        android:textSize="14sp"
+        android:background="@drawable/round_rect_shape"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#8ad308"
+        android:foreground="?attr/selectableItemBackground"
+
+        android:lineSpacingExtra="16sp"
+        android:gravity="center" />
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:id="@+id/textTryFlow"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="19dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:lineSpacingExtra="3sp"
+        android:text="@string/try_another_flow" />
+</LinearLayout>
